@@ -3,21 +3,23 @@ import { Icon } from "astro-icon/components";
 import AccordionLayout from "../layouts/AccordionLayout.astro";
 import * as about from "../pages/about/about.md";
 import Card from "./Card.astro";
+import SkillsCard from "./SkillsCard.astro";
 const works = await Astro.glob("../pages/works/*.md");
 const projects = await Astro.glob("../pages/projects/*.md");
 const studies = await Astro.glob("../pages/studies/*.md");
 const certificates = await Astro.glob("../pages/certificates/*.md");
+const skills = await Astro.glob("../pages/skills/*.md");
 const PDF = "/cv-20240219.pdf";
 ---
 
 <div class="join join-vertical gap-1">
-  <AccordionLayout title={"About"} icon={"carbon:identification"}>
+  <AccordionLayout title={"About"} icon={"carbon:user"}>
     <article class="text-justify">
       <Fragment set:html={about.compiledContent()} />
     </article>
   </AccordionLayout>
 
-  <AccordionLayout title={"Projects"} icon={"carbon:tools"}>
+  <AccordionLayout title={"Projects"} icon={"carbon:rocket"}>
     {
       projects.map((item) => {
         return (
@@ -34,7 +36,7 @@ const PDF = "/cv-20240219.pdf";
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Work"} icon={"carbon:construction"}>
+  <AccordionLayout title={"Work"} icon={"carbon:tool-box"}>
     {
       works.map((item) => {
         return (
@@ -81,6 +83,18 @@ const PDF = "/cv-20240219.pdf";
             tags={item.frontmatter.tags}
             url={item.frontmatter.url}
             url_name={"View Certificate"}
+          />
+        );
+      })
+    }
+  </AccordionLayout>
+
+  <AccordionLayout title={"Skills"} icon={"carbon:tool-kit"}>
+    {
+      skills.map((item) => {
+        return (
+          <SkillsCard
+            tags={item.frontmatter.tags}
           />
         );
       })
