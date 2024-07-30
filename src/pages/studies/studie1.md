@@ -1,9 +1,9 @@
 ---
-title: Bachelor of Science in Criminal Justice
-location: University of California, Los Angeles (UCLA)
-url: http://foeberoz.gm/kuj
-institute: University of California
-date: 1970-1975
+title: Software Engineering
+location: Cuernavaca, Mor.
+url: https://www.unadmexico.mx/
+institute: Universidad Abierta y a Distancia de México
+date: 2023-present
 tags:
   [
     "Criminal Justice",

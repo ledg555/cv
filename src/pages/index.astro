@@ -6,7 +6,7 @@ import Header from "../components/Header.astro";
 import { Icon } from "astro-icon/components";
 ---
 
-<html lang="gl">
+<html lang="en">
   <head>
     <script is:inline>
       if (localStorage.getItem("theme") === null) {
@@ -25,7 +25,7 @@ import { Icon } from "astro-icon/components";
     <link rel="icon" type="image/png" href="/favicon.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
-    <title>Cezar Kelso CV</title>
+    <title>Luis Delgado Gallardo</title>
   </head>
   <body class="flex flex-col min-h-screen">
     <Header />
@@ -41,6 +41,7 @@ import { Icon } from "astro-icon/components";
         checked
       />
       <Icon name="carbon:light" class="w-4 h-4" />
+      <Icon name="carbon:earth-filled" class="w-8 h-8"/>
     </div>
 
     <div
