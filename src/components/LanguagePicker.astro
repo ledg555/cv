@@ -1,0 +1,34 @@
+---
+import { Icon } from "astro-icon/components";
+---
+<div class="dropdown m-0 p-0 h-6">
+  <button class="p-0 m-0">
+    <Icon name="carbon:earth-filled" class="w-6 h-6"/>
+  </button>
+  <div class="menu p-0 m-0">
+    <a href="/en"><Icon name="carbon:database-enterprisedb" class="w-6 h-6"/></a>
+    <a href="/es"><Icon name="carbon:database-elastic" class="w-6 h-6"/></a>
+  </div>
+</div>
+
+
+<style>
+  .dropdown {
+    position: relative;
+  }
+
+  .menu {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    transform: translateY(10px);
+    transition: transform 200ms;
+  }
+
+  .dropdown > button:focus + .menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+</style>
