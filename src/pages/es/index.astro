@@ -1,12 +1,18 @@
 ---
 import "@fontsource-variable/dm-sans";
-import Container from "../components/Container.astro";
-import Footer from "../components/Footer.astro";
-import Header from "../components/Header.astro";
+import Container from "../../components/ContainerES.astro";
+import Footer from "../../components/FooterES.astro";
+import Header from "../../components/HeaderES.astro";
 import { Icon } from "astro-icon/components";
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import {getRelativeLocaleUrl} from "astro:i18n";
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const {currentLocale} = Astro;
 ---
 
-<html lang="en">
+<html lang={lang}>
   <head>
     <script is:inline>
       if (localStorage.getItem("theme") === null) {

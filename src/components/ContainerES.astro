@@ -1,25 +1,25 @@
 ---
 import { Icon } from "astro-icon/components";
 import AccordionLayout from "../layouts/AccordionLayout.astro";
-import * as about from "../pages/en/about/about.md";
+import * as about from "../pages/es/about/about.md";
 import Card from "./Card.astro";
 import SkillsCard from "./SkillsCard.astro";
-const works = await Astro.glob("../pages/en/works/*.md");
-const projects = await Astro.glob("../pages/en/projects/*.md");
+const works = await Astro.glob("../pages/es/works/*.md");
+const projects = await Astro.glob("../pages/es/projects/*.md");
 const studies = await Astro.glob("../pages/en/studies/*.md");
-const certificates = await Astro.glob("../pages/en/certificates/*.md");
-const skills = await Astro.glob("../pages/en/skills/*.md");
+const certificates = await Astro.glob("../pages/es/certificates/*.md");
+const skills = await Astro.glob("../pages/es/skills/*.md");
 const PDF = "/cv-20240219.pdf";
 ---
 
 <div class="join join-vertical gap-1">
-  <AccordionLayout title={"About"} icon={"carbon:user"}>
+  <AccordionLayout title={"Sobre mí"} icon={"carbon:user"}>
     <article class="text-justify">
       <Fragment set:html={about.compiledContent()} />
     </article>
   </AccordionLayout>
 
-  <AccordionLayout title={"Projects"} icon={"carbon:rocket"}>
+  <AccordionLayout title={"Proyectos"} icon={"carbon:rocket"}>
     {
       projects.map((item) => {
         return (
@@ -29,14 +29,14 @@ const PDF = "/cv-20240219.pdf";
             description={item.compiledContent()}
             tags={item.frontmatter.tags}
             url={item.frontmatter.url}
-            url_name={"View project"}
+            url_name={"Ver proyecto"}
           />
         );
       })
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Work"} icon={"carbon:tool-box"}>
+  <AccordionLayout title={"Experiencia"} icon={"carbon:tool-box"}>
     {
       works.map((item) => {
         return (
@@ -54,7 +54,7 @@ const PDF = "/cv-20240219.pdf";
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Studies"} icon={"carbon:education"}>
+  <AccordionLayout title={"Formación"} icon={"carbon:education"}>
     {
       studies.map((item) => {
         return (
@@ -72,7 +72,7 @@ const PDF = "/cv-20240219.pdf";
   </AccordionLayout>
 
 
-  <AccordionLayout title={"Achievements"} icon={"carbon:certificate"}>
+  <AccordionLayout title={"Reconocimientos"} icon={"carbon:certificate"}>
     {
       certificates.map((item) => {
         return (
@@ -82,14 +82,14 @@ const PDF = "/cv-20240219.pdf";
             description={item.compiledContent()}
             tags={item.frontmatter.tags}
             url={item.frontmatter.url}
-            url_name={"View Certificate"}
+            url_name={"Ver reconocimiento"}
           />
         );
       })
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Skills"} icon={"carbon:tool-kit"}>
+  <AccordionLayout title={"Habilidades"} icon={"carbon:tool-kit"}>
     {
       skills.map((item) => {
         return (
