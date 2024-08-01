@@ -6,7 +6,7 @@ import Card from "./Card.astro";
 import SkillsCard from "./SkillsCard.astro";
 const works = await Astro.glob("../pages/es/works/*.md");
 const projects = await Astro.glob("../pages/es/projects/*.md");
-const studies = await Astro.glob("../pages/en/studies/*.md");
+const studies = await Astro.glob("../pages/es/studies/*.md");
 const certificates = await Astro.glob("../pages/es/certificates/*.md");
 const skills = await Astro.glob("../pages/es/skills/*.md");
 const PDF = "/cv-20240219.pdf";
@@ -63,7 +63,7 @@ const PDF = "/cv-20240219.pdf";
             timeframe={item.frontmatter.date}
             location={item.frontmatter.location}
             tags={item.frontmatter.tags}
-            url={item.url}
+            url={item.frontmatter.url}
             url_name={item.frontmatter.institute}
           />
         );

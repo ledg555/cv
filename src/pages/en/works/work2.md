@@ -6,12 +6,12 @@ location: Cuernavaca, Mor.
 org: WorldBrain México
 tags:
   [
-    "SWAT",
-    "Surveillance",
-    "Undercover Operations",
-    "Evidence Gathering",
-    "Case Solving",
-    "Interviewing Skills",
+    "Formation",
+    "Multi-disciplinary",
+    "Maths",
+    "JavaScript",
+    "Arduino",
+    "Electronics",
   ]
 ---
 

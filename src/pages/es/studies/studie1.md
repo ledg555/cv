@@ -6,10 +6,10 @@ institute: Universidad Abierta y a Distancia de México
 date: 2023-presente
 tags:
   [
-    "Criminal Justice",
-    "Law Enforcement",
-    "Legal Studies",
-    "Public Safety",
-    "Court System",
+    "Fundamentos de Programación",
+    "Programación Orientada a Objetos",
+    "Estructuras de Datos",
+    "Sistemas Operativos",
+    "Fundamentos de Bases de Datos",
   ]
 ---
