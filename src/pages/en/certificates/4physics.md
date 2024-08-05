@@ -2,7 +2,7 @@
 title: Physics Olympiads and Rallys
 org: UAEM, UPAEP, Educativa C-Cúbica, Tecnológico de Monterrey
 tags: []
-url: https://ed.team/
+url: "#"
 date:
 ---
 

@@ -1,10 +1,10 @@
 ---
-title: Profesor STEM
-date: 2022-2023
-url: https://progressum.edu.mx/
-location: Cuernavaca, Mor.
-org: Colegio Universitario Progressum
-tags: ["Formación", "Física", "Matemáticas", "Informática", "HTML", "CSS", "JavaScript", "Python"]
+title: Profesor de física e informática
+date: 2023 - 2024
+url: https://www.elpenon.edu.mx/
+location: Jonacatepec, Mor.
+org: Colegio El Peñón
+tags: ["Formación", "Física", "Informática", "JavaScript", "Python"]
 ---
 
-Profesor de las asignaturas de física, matemáticas e informática, desarrollé proyectos multidisciplinarios con alumnos de secundaria y bachillerato utilizando principalmente las tecnologías HTML, Javascript, CSS, Python y Scratch, así como software de análisis de datos, como LabPlot.
+Durante el último año fungí como profesor auxiliar de informática, enseñando a estudiantes de bachillerato los lenguajes de Python y JavaScript. También fui titular de física, donde logré que mis alumnos ganaran 12 de las 14 medallas que se han obtenido bajo mi tutoría.

@@ -1,18 +1,10 @@
 ---
-title: Robotics teacher
-date: 2021-2022
-url: https://ultravelozmente.com/
+title: STEM teacher
+date: 2022 - 2023
+url: https://progressum.edu.mx/
 location: Cuernavaca, Mor.
-org: WorldBrain México
-tags:
-  [
-    "Formation",
-    "Multi-disciplinary",
-    "Maths",
-    "JavaScript",
-    "Arduino",
-    "Electronics",
-  ]
+org: Colegio Universitario Progressum
+tags: ["Formation", "Physics", "Maths", "ICT", "HTML", "CSS", "JavaScript", "Python"]
 ---
 
-I led multi-grade student groups to their understanding of programming and logic concepts applied to Scratch, Javascript, Arduino and electronics projects.
+Physics, Maths and ICT teacher, I developed multidisciplinary projects with my high school students, mailnly involving technologies like HTML, CSS, Javascript, Python and Scratch, as well as data analysis software like LabPlot.
