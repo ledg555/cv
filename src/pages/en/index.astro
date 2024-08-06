@@ -7,6 +7,7 @@ import { Icon } from "astro-icon/components";
 import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 import {getRelativeLocaleUrl} from "astro:i18n";
 import LanguagePicker from "../../components/LanguagePicker.astro";
+const PDFen = "/Luis_Delgado_en.pdf";
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
@@ -39,8 +40,13 @@ const {currentLocale} = Astro;
     <div
       class="flex items-center gap-4 absolute top-4 right-4 p-0 m-0 md:top-6 md:right-6 lg:top-8 lg:right-8 xl:top-10 xl:right-10 z-10"
     >
+    <a target="_blank" href={PDFen}>
+        <button class="btn btn-outline mr-0.5">
+          <p>Download CV</p>      
+        </button>
+      </a>
     <div class="flex items-center">
-      <Icon name="carbon:moon" class="w-4 h-4" />
+      <Icon name="carbon:moon" class="w-4 h-4 -mr-px" />
       <input
         type="checkbox"
         data-toggle-theme="black,lofi"
@@ -48,7 +54,7 @@ const {currentLocale} = Astro;
         class="toggle toggle-sm mx-1 bg-secondary"
         checked
       />
-      <Icon name="carbon:light" class="w-4 h-4" />
+      <Icon name="carbon:light" class="w-4 h-4 -mr-px" />
       </div>
       <LanguagePicker/>
     </div>
