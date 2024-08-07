@@ -8,7 +8,7 @@ import * as about from "../pages/es/about/about.md";
     class="flex flex-col md:flex-col items-center gap-4 w-full max-w-2xl"
   >
     <div
-      class="flex-shrink-0 w-20 md:w-24 rounded-full shadow-sm overflow-hidden"
+      class="hidden flex-shrink-0 w-20 min-[480px]:block self-start md:self-center md:w-24 rounded-full shadow-sm overflow-hidden"
     >
       <img
         alt="Luis Delgado Gallardo"
@@ -19,7 +19,7 @@ import * as about from "../pages/es/about/about.md";
 
     <div class="text-center">
       <div
-        class="flex justify-center md:justify-between items-center mb-2 relative"
+        class="pt-20 flex justify-center min-[480px]:pt-0 md:justify-between items-center mb-2 relative"
       >
         <h1 class="text-3xl font-extrabold tracking-tight md:text-3xl relative">
           {about.frontmatter.name}
