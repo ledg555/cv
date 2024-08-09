@@ -1,7 +1,7 @@
 ---
 title: MathCalc Pro
 url: https://github.com/ledg555
-tags: ["HTML", "Tailwind CSS", "JavaScript", "React", "Next", "Shadcn"]
+tags: ["HTML", "Tailwind CSS", "JavaScript", "Git", "React", "Next", "Shadcn"]
 date: 2024
 ---
 

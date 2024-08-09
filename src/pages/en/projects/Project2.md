@@ -1,7 +1,7 @@
 ---
 title: Admin Control Panel
 url: https://github.com/ledg555
-tags: ["HTML", "Tailwind CSS", "JavaScript", "React", "Next", "Shadcn, Prisma ORM"]
+tags: ["HTML", "Tailwind CSS", "JavaScript", "TypeScript", "Git", "React", "Next", "Shadcn, SQL, Prisma ORM"]
 date: 2024
 ---
 
