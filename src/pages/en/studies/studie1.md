@@ -3,7 +3,7 @@ title: Software Engineering
 location: Cuernavaca, Mor.
 url: https://www.unadmexico.mx/
 institute: Universidad Abierta y a Distancia de México
-date: 2023 - present
+date: 2023 - Present
 tags:
   [
     "Programing Fundamentals",

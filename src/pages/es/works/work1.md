@@ -1,10 +1,10 @@
 ---
-title: Profesor de física e informática
-date: 2023 - 2024
-url: https://www.elpenon.edu.mx/
-location: Jonacatepec, Mor.
-org: Colegio El Peñón
-tags: ["Formación", "Física", "Informática", "JavaScript", "Python"]
+title: Voluntario Frontend Trainee
+date: 2024 - Presente
+url: https://www.nocountry.tech
+location: Jiutepec, Mor.
+org: No Country
+tags: ["Frontend", "Trainee", "React", "TanStack Query", "Zustand"]
 ---
 
-Durante el último año fungí como profesor auxiliar de informática, enseñando a estudiantes de bachillerato los lenguajes de Python y JavaScript. También fui titular de física, donde logré que mis alumnos ganaran 12 de las 14 medallas que se han obtenido bajo mi tutoría.
+En esta simulación laboral colaboré con un equipo de distintas nacionalidades para desarrollar el producto mínimo viable de un refugio de adopción de mascotas.  De este modo gané experiencia trabajando con equipos remotos y utilizando GitHub Projects, mediante el flujo de trabajo de GitHub.

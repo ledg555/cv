@@ -1,10 +1,10 @@
 ---
-title: Physics and ICT teacher
-date: 2023 - 2024
-url: https://www.elpenon.edu.mx/
-location: Jonacatepec, Mor.
-org: Colegio El Peñón
-tags: ["Formation", "Physics", "ICT", "JavaScript", "Python"]
+title: Frontend Developer Volunteer
+date: 2024 - Present
+url: https://www.nocountry.tech
+location: Jiutepec, Mor.
+org: No Country
+tags: ["Frontend", "Trainee", "React", "TanStack Query", "Zustand"]
 ---
 
-During the last year I served as an assistant ICT professor, teaching mainly Python and JavaScript languages to high school students. I served also as physics teacher, where I managed to get my students to win 12 of the 14 medals that have been obtained under my charge.
+In this job simulation I worked with a team from different countries to develop the minimum viable product for a pet adoption shelter. This way I gained experience working with remote teams and using GitHub Projects, through GitHub flow.

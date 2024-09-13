@@ -1,8 +1,8 @@
 ---
-title: MathCalc Pro
-url: https://github.com/ledg555
-tags: ["HTML", "Tailwind CSS", "JavaScript", "Git", "React", "Next", "Shadcn"]
+title: Pawsome Friends
+url: https://pawsome-friends.netlify.app
+tags: [ "JavaScript", "Tailwind CSS", "React", "React router", "TanStack Query", "Zustand", "Shadcn-ui", "Mongo", "Express"]
 date: 2024
 ---
 
-A calculator with arithmetic, algebraic and geometric functionalities, among others. Designed from scratch to assist high school students to develop conficence in their reasoning and problem solving processes.
+A web app for pet adoption. It features a home page, a pets catalog with search filters, and pet adoption and registration forms, as well as a login page with a control panel for pet shelter admins.
