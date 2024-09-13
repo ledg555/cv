@@ -2,7 +2,7 @@
 title: about
 name: "Luis Delgado Gallardo"
 designation: "Frontend developer | React"
-location: Cuernavaca, Morelos, MX
+location: Jiutepec, MX
 pronouns: "he/him/el"
 website: "https://linkedin.com/in/ledg555"
 ---

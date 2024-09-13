@@ -1,9 +1,8 @@
 ---
-title: Admin Control Panel
-url: https://github.com/ledg555
-tags: ["HTML", "Tailwind CSS", "JavaScript", "TypeScript", "Git", "React", "Next", "Shadcn, SQL, Prisma ORM"]
+title: TicTapToe
+url: https://tictaptoe.netlify.app
+tags: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "Shadcn-ui"]
 date: 2024
 ---
 
-A proposal of what could end up being the admin control panel for a familiar business e-commerce app. Includes sections for products,
-customers, and sales, among others.
+Cool looking tictactoe game developed from scratch, features a neumorphic design, scores bar, switches for the shape and the starting player, and local storage of player scores.

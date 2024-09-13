@@ -1,8 +1,8 @@
 ---
-title: Panel de Control Administrativo
-url: https://github.com/ledg555
-tags: ["HTML", "Tailwind CSS", "JavaScript", "TypeScript", "Git", "React", "Next", "Shadcn, SQL, Prisma ORM"]
+title: TicTapToe
+url: https://tictaptoe.netlify.app
+tags: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "Shadcn-ui"]
 date: 2024
 ---
 
-Propuesta de lo que podría ser un panel de control para una aplicación de tienda en línea de un negocio familiar. Incluye secciones de productos, clientes y pedidos, entre otros.
+Juego de tres en línea desarrollado desde cero, con diseño neumórfico, tablero de puntos, interruptores de forma y de jugador inicial, y almacenamiento local de puntajes de los jugadores.  
