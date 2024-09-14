@@ -7,4 +7,6 @@ pronouns: "he/him/el"
 website: "https://linkedin.com/in/ledg555"
 ---
 
-Former STEM teacher and medalists trainer of physics olympiads, I'm very passionate about constantly looking for new challenges and learnings, so I decided to become a frontend developer to enter and excel now in the vast and dynamic IT world.
+Former STEM teacher and coach of physics olympiads medalists, I'm very passionate about constantly
+looking for new challenges and learnings, so I decided to become a frontend developer to enter and
+excel now in the vast and dynamic IT world.
